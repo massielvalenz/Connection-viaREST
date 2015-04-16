@@ -72,6 +72,7 @@ class TestRestApi():
     unprotectedVMURL = self.base_url + "/protection_domains/unprotected_vms/"
     print "List of unprotected VMs in cluster %s" % self.serverIpAddress
     serverResponse = self.session.get(unprotectedVMURL)
+    print "Response code: %s" % serverResponse.status_code
     return json.loads(serverResponse.text)
     
 #Add the entire list of unprotected VMs to Protection Domain. This script will exclude Controller VMs.
