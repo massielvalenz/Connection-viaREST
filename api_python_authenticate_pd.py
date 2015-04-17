@@ -75,7 +75,9 @@ class TestRestApi():
     print "Response code: %s" % serverResponse.status_code
     return json.loads(serverResponse.text)
     
-#Add the entire list of unprotected VMs to Protection Domain. This script will exclude Controller VMs.
+#Add the entire list of unprotected VMs to Protection Domain. This script will exclude Controller VMs. 
+#If you have VMs on Metro Availability protection domains thien the cluster will give you a warning, 
+#ignore those VMs, and continue to add the other unprotected VMs.
 
   def addVMtoPD(self):
     
