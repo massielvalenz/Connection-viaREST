@@ -1,4 +1,4 @@
-<# This sample response is created from the Nutanix PowerShell REST API authentication script.
+<#  This sample response is created from the Nutanix PowerShell REST API authentication script.
 Be sure that you are running the latest version of the Nutanix cmdlets. 
 
 Execute the REST API PowerShell script.
