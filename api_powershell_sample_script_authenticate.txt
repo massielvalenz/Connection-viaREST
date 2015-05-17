@@ -1,4 +1,4 @@
-<# 
+<#  
 
  This Nutanix PowerShell script for REST API connection, authentication, getting unprotected VMs, creating a protection domain,
  and adding unprotected VMs to a protection domain.
